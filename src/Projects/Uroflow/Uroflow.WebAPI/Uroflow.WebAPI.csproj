@@ -12,11 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Uroflow.Persistance\Uroflow.Persistance.csproj" />
     <ProjectReference Include="..\..\..\CorePackages\Core.Extensions\Core.Extensions.csproj" />
     <ProjectReference Include="..\Uroflow.Application\Uroflow.Application.csproj" />
     <ProjectReference Include="..\Uroflow.Domain\Uroflow.Domain.csproj" />
     <ProjectReference Include="..\Uroflow.Infrastructure\Uroflow.Infrastructure.csproj" />
+    <ProjectReference Include="..\Uroflow.Persistance\Uroflow.Persistance.csproj" />
   </ItemGroup>
 
 </Project>

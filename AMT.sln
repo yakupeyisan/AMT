@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Domain", "src\Proje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Infrastructure", "src\Projects\Uroflow\Uroflow.Infrastructure\Uroflow.Infrastructure.csproj", "{D9AAED29-2A6D-40F3-B328-76D0DACD7BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Persistance", "Uroflow.Persistance\Uroflow.Persistance.csproj", "{D36DA0B8-938D-451C-9A67-45A816C5AA36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Persistance", "src\Projects\Uroflow\Uroflow.Persistance\Uroflow.Persistance.csproj", "{D36DA0B8-938D-451C-9A67-45A816C5AA36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.WebAPI", "src\Projects\Uroflow\Uroflow.WebAPI\Uroflow.WebAPI.csproj", "{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}"
 EndProject

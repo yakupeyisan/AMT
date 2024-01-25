@@ -13,8 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CorePackages\Core.Security\Core.Security.csproj" />
-    <ProjectReference Include="..\src\Projects\Uroflow\Uroflow.Application\Uroflow.Application.csproj" />
+    <ProjectReference Include="..\..\..\CorePackages\Core.Persistence\Core.Persistence.csproj" />
+    <ProjectReference Include="..\..\..\CorePackages\Core.Security\Core.Security.csproj" />
+    <ProjectReference Include="..\Uroflow.Application\Uroflow.Application.csproj" />
   </ItemGroup>
 
 </Project>
