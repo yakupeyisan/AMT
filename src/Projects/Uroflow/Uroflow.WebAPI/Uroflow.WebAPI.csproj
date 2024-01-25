@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Uroflow.Persistance\Uroflow.Persistance.csproj" />
+    <ProjectReference Include="..\..\..\CorePackages\Core.Extensions\Core.Extensions.csproj" />
+    <ProjectReference Include="..\Uroflow.Application\Uroflow.Application.csproj" />
+    <ProjectReference Include="..\Uroflow.Domain\Uroflow.Domain.csproj" />
+    <ProjectReference Include="..\Uroflow.Infrastructure\Uroflow.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

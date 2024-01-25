@@ -1,0 +1,44 @@
+{
+  "TokenOptions": {
+    "Audience": "yakupeyisan",
+    "Issuer": "yakupeyisan",
+    "AccessTokenExpiration": 1500,
+    "SecurityKey": "h3v7kTCaPFnennYXpAwC",
+    "RefreshTokenTTL": 2
+  },
+  "AllowedHostList": [
+    "http://localhost:4200",
+    "https://localhost:4200"
+  ],
+  "ConnectionStrings": {
+    "Production": "Server=127.0.0.1,1432; Database=TestDb; uid=sa; pwd=34zkxlpdSO; MultipleActiveResultSets=true; TrustServerCertificate=True",
+    "Test": "Server=127.0.0.1,1432; Database=TestDb; uid=sa; pwd=34zkxlpdSO; MultipleActiveResultSets=true; TrustServerCertificate=True",
+    "Debug": "Server=127.0.0.1,1432; Database=TestDb; uid=sa; pwd=34zkxlpdSO; MultipleActiveResultSets=true; TrustServerCertificate=True"
+  },
+  "MailSettings": {
+    "Server": "mail.technolife.com.tr",
+    "Port": 587,
+    "SenderFullName": "Technolife",
+    "SenderEmail": "noreply@technolife.com.tr",
+    "UserName": "noreply@technolife.com.tr",
+    "Password": "Technolife42786",
+    "UseSSL": false,
+    "UseStartTls": true
+  },
+  "SmsSettings": {
+    "Turkish": true,
+    "CustomerNumber": "26697",
+    "Sender": "TECHNOLIFE",
+    "UserName": "905324684642",
+    "Password": "HG674272"
+  },
+  "GenerealSettings": {
+    "PasswordNotificationType": "Sms",
+    "ConfirmSupportNotificationType": "Sms",
+    "Environment": "Production"
+  },
+  "ConsulAddress": "http://localhost:8500",
+  "CacheSettings": {
+    "SlidingExpiration": 60
+  }
+}
