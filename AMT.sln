@@ -25,15 +25,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Utilities", "src\CoreP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uroflow", "Uroflow", "{6097D747-E90A-42F1-864A-9D38C2FAAA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Application", "src\Projects\Uroflow\Uroflow.Application\Uroflow.Application.csproj", "{D04160A8-F507-491B-90B4-1DDAA977503E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uroflow.Application", "src\Projects\Uroflow\Uroflow.Application\Uroflow.Application.csproj", "{D04160A8-F507-491B-90B4-1DDAA977503E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Domain", "src\Projects\Uroflow\Uroflow.Domain\Uroflow.Domain.csproj", "{4AC19AF6-52D6-4C09-9CA5-5932BBD9C82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uroflow.Domain", "src\Projects\Uroflow\Uroflow.Domain\Uroflow.Domain.csproj", "{4AC19AF6-52D6-4C09-9CA5-5932BBD9C82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Infrastructure", "src\Projects\Uroflow\Uroflow.Infrastructure\Uroflow.Infrastructure.csproj", "{D9AAED29-2A6D-40F3-B328-76D0DACD7BE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uroflow.Infrastructure", "src\Projects\Uroflow\Uroflow.Infrastructure\Uroflow.Infrastructure.csproj", "{D9AAED29-2A6D-40F3-B328-76D0DACD7BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Persistance", "src\Projects\Uroflow\Uroflow.Persistance\Uroflow.Persistance.csproj", "{D36DA0B8-938D-451C-9A67-45A816C5AA36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uroflow.Persistance", "src\Projects\Uroflow\Uroflow.Persistance\Uroflow.Persistance.csproj", "{D36DA0B8-938D-451C-9A67-45A816C5AA36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.WebAPI", "src\Projects\Uroflow\Uroflow.WebAPI\Uroflow.WebAPI.csproj", "{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uroflow.WebAPI", "src\Projects\Uroflow\Uroflow.WebAPI\Uroflow.WebAPI.csproj", "{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Device.WebAPI", "src\Projects\Uroflow\Uroflow.Device.WebAPI\Uroflow.Device.WebAPI.csproj", "{A6609889-C63D-449D-B916-5FE12F47F4F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Device", "Device", "{EC7BF193-4836-409B-8529-FA8D73CCD13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uroflow.Device.Service", "src\Projects\Uroflow\Uroflow.Device.Service\Uroflow.Device.Service.csproj", "{645F3F7C-764A-455B-BC23-D2CFABE89FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE90B788-6B87-4C46-AB44-B26A7E4BDC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6609889-C63D-449D-B916-5FE12F47F4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6609889-C63D-449D-B916-5FE12F47F4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6609889-C63D-449D-B916-5FE12F47F4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6609889-C63D-449D-B916-5FE12F47F4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645F3F7C-764A-455B-BC23-D2CFABE89FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645F3F7C-764A-455B-BC23-D2CFABE89FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645F3F7C-764A-455B-BC23-D2CFABE89FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645F3F7C-764A-455B-BC23-D2CFABE89FE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +123,9 @@ Global
 		{D9AAED29-2A6D-40F3-B328-76D0DACD7BE2} = {6097D747-E90A-42F1-864A-9D38C2FAAA58}
 		{D36DA0B8-938D-451C-9A67-45A816C5AA36} = {6097D747-E90A-42F1-864A-9D38C2FAAA58}
 		{FE90B788-6B87-4C46-AB44-B26A7E4BDC58} = {6097D747-E90A-42F1-864A-9D38C2FAAA58}
+		{A6609889-C63D-449D-B916-5FE12F47F4F7} = {EC7BF193-4836-409B-8529-FA8D73CCD13D}
+		{EC7BF193-4836-409B-8529-FA8D73CCD13D} = {6097D747-E90A-42F1-864A-9D38C2FAAA58}
+		{645F3F7C-764A-455B-BC23-D2CFABE89FE3} = {EC7BF193-4836-409B-8529-FA8D73CCD13D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00CF42C4-D32D-4145-9A5D-248E318279A7}

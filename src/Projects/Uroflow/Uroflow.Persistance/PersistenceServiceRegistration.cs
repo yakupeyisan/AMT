@@ -17,7 +17,6 @@ public static class PersistenceServiceRegistration
                                                  options.UseSqlServer(
                                                      configuration.GetConnectionString("Uroflow")
                                                  ));
-        services.AddDbContext<UroflowDbContext>();
         services.AddScoped<IIdentityRepository, IdentityRepository>(); 
         services.AddScoped<IIdentityAuthorityRepository, IdentityAuthorityRepository>();
         services.AddScoped<IIdentityOperationClaimRepository, IdentityOperationClaimRepository>();

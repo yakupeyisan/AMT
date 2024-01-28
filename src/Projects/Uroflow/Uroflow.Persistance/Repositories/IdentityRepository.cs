@@ -1,18 +1,12 @@
 ﻿using Core.Persistence.Repositories;
 using Core.Security.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Uroflow.Application.Services.Repositories;
 using Uroflow.Domain.Entities;
 using Uroflow.Persistance.Contexts;
 
 namespace Uroflow.Persistance.Repositories;
 
-internal class IdentityRepository : EfBaseTimeStampRepositoryBase<Identity, UroflowDbContext>, IIdentityRepository
-
+public class IdentityRepository : EfBaseTimeStampRepositoryBase<Identity, UroflowDbContext>, IIdentityRepository
 {
     public IdentityRepository(UroflowDbContext context) : base(context)
     {
