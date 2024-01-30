@@ -31,5 +31,7 @@ public enum ApplicationType
 public enum CommunicationType
 {
     SetApplicationType,
-    GetConfig
+    GetConfig,
+    UpdateStart,
+    UpdateEnd
 }
